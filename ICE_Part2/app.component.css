@@ -1,0 +1,59 @@
+#title {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+  font-weight: 100;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-family: sans-serif;
+  color: black;
+  background: #ffffff;
+  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #494949;
+  border-radius: 50px;
+  border-color: #494949;
+  transition: all 0.3s ease 0s;
+}
+
+nav a:focus{
+  background: #D3D3D3;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  float: left;
+}
+
+#crest {
+  float: left;
+  position: absolute;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+}

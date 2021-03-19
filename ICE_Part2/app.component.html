@@ -1,0 +1,31 @@
+<div *ngFor="let url of crest" id='f'>
+  <div id="crest">
+      <img src="{{url.crestUrl}}" alt="">
+  </div>
+  <br />
+  <br />
+  <h1 id="title">{{title}}</h1>
+  <br />
+  <br />
+</div>
+
+<nav>
+  <a routerLink="/last-game-result">Last Game Result of My Team</a>&nbsp;
+  <a routerLink="/last-game">Last Game Result</a>&nbsp;
+  <a routerLink="/last-five-game">Last Five Games</a>&nbsp;
+  <a routerLink="/player-perf">Player Performance</a>&nbsp;
+  <a routerLink="/points">Points</a>&nbsp;
+  <a routerLink="/top-goal-scorers">Top Goal Scorers</a>&nbsp;
+  <a routerLink="/all-game-res">All Game Result</a>&nbsp;
+  <a routerLink="/h2h-match-res-rival">Head to Head Result</a>&nbsp;
+</nav>
+
+<br />
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer>
+  <p>{{footer}} <br> https://bitbucket.org/</p> 
+</footer>
